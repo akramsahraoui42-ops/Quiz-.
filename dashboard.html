@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <title>لوحة التحكم</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="card">
+  <h1>📊 لوحة التحكم</h1>
+
+  <h3>✍️ الأسئلة (JSON)</h3>
+  <textarea id="questions"></textarea>
+  <button onclick="saveQuestions()">حفظ الأسئلة</button>
+
+  <h3>📈 الإحصائيات</h3>
+  <p>عدد المختبرين: <span id="count"></span></p>
+
+  <h3>🗂️ النتائج</h3>
+  <pre id="results"></pre>
+</div>
+
+<script src="admin.js"></script>
+</body>
+</html>
